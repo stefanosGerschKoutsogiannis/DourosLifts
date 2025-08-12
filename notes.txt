@@ -1,0 +1,7 @@
+colors:
+    - primary color: some dark blue sade
+    - secondary colro: some white sade
+    - assent color: orange
+
+fonts:
+    - choose one 
