@@ -216,6 +216,22 @@ a {
     width: 300px;
 }
 
+.contact-section {
+    background-color: var(--white-smoke);
+    padding: 50px;
+}
+
+.contact-section h2 {
+    font-size: var(--font-large);
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: var(--font-mid);
+    font-family: var(--font-contrast);
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width:886px) {
     .header-section {
         flex-direction: column;
@@ -231,16 +247,17 @@ a {
         align-items: center;
     }
 
+    .hero-section img {
+        width: 400px;
+        height: 300px;
+    }
+
     .hero-section h2 {
         padding: 15px 0;
     }
 
     .hero-section .cto  p {
         padding: 15px 0;
-    }
-
-    .hero-section .cto {
-        text-align: center;
     }
 
     .hero-section .cto a {
@@ -256,8 +273,13 @@ a {
         padding: 15px 30px;
     }
 
-    .about-section h2 {
+    .about-section .text h2 {
         text-align: center;
+    }
+
+    .about-section .about-image img {
+        width: 350px;
+        height: 250px;
     }
 
     .about-section .text {
@@ -279,8 +301,21 @@ a {
         align-items: center;
     }
 
+    .partners-section h2 {
+        text-align: center;
+    }
+
+    .partners-section p {
+        padding: 0 30px;
+    }
+
     .partners-section .partners-container {
         flex-direction: column;
         align-items: center;
+        width: 300px;
+    }
+
+    .contact-section h2 {
+        text-align: center;
     }
 }
